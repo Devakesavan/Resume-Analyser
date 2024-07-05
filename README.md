@@ -205,4 +205,4 @@ npm start
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Devakesavan/Resume-Analyser/commit/339b80c30d36134b6ef9e3270f448aea0d301d55) file for details.
