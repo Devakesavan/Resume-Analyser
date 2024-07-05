@@ -203,8 +203,25 @@ npm start
 
 3. Open your browser and navigate to `http://127.0.0.1:3000`.
 
+## Contributors ✨
 
-@all-contributors please add @Abishekmrgstar for <contribution-type>
+Thanks go to these wonderful people ([emoji key](https://github.com/Abishekmrgstar/)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/username1"><img src="https://avatars.githubusercontent.com/u/username1?v=4" width="100px;" alt=""/><br /><sub><b>Username1</b></sub></a><br /><a href="https://github.com/yourrepo/yourproject/commits?author=username1" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/username2"><img src="https://avatars.githubusercontent.com/u/username2?v=4" width="100px;" alt=""/><br /><sub><b>Username2</b></sub></a><br /><a href="https://github.com/yourrepo/yourproject/commits?author=username2" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/username3"><img src="https://avatars.githubusercontent.com/u/username3?v=4" width="100px;" alt=""/><br /><sub><b>Username3</b></sub></a><br /><a href="https://github.com/yourrepo/yourproject/commits?author=username3" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
 
 
 ## License
