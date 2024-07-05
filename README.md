@@ -14,6 +14,88 @@ This project is a web application for uploading and analyzing resume files. It c
 - **Frontend:** React, Axios
 - **API Integration:** Google Generative AI
 
+  ### Resume Analysis App Packages Documentation
+
+This document provides a comprehensive list of packages used in the Resume Analysis App, including both backend and frontend components.
+
+#### Backend Packages
+
+1. **Django**
+   - **Version**: 3.2 or higher
+   - **Description**: A high-level Python web framework that encourages rapid development and clean, pragmatic design.
+   - **Installation**: `pip install django`
+
+2. **PyMuPDF (fitz)**
+   - **Version**: 1.18.19 or higher
+   - **Description**: PyMuPDF is a Python binding for MuPDF, which is a lightweight PDF and XPS viewer.
+   - **Installation**: `pip install pymupdf`
+
+3. **Google Generative AI**
+   - **Version**: 1.0.0 or higher
+   - **Description**: A library for interacting with Google Generative AI services.
+   - **Installation**: `pip install google-generativeai`
+
+4. **Setuptools**
+   - **Version**: Latest
+   - **Description**: Easily download, build, install, upgrade, and uninstall Python packages.
+   - **Installation**: `pip install setuptools`
+
+5. **Twine**
+   - **Version**: Latest
+   - **Description**: Utility for publishing Python packages on PyPI.
+   - **Installation**: `pip install twine`
+
+#### Frontend Packages
+
+1. **React**
+   - **Version**: 17.0.2 or higher
+   - **Description**: A JavaScript library for building user interfaces.
+   - **Installation**: `npm install react`
+
+2. **React DOM**
+   - **Version**: 17.0.2 or higher
+   - **Description**: This package serves as the entry point to the DOM and server renderers for React.
+   - **Installation**: `npm install react-dom`
+
+3. **React Scripts**
+   - **Version**: 4.0.3 or higher
+   - **Description**: This package includes scripts and configuration used by Create React App.
+   - **Installation**: `npm install react-scripts`
+
+4. **Axios**
+   - **Version**: 0.21.1 or higher
+   - **Description**: Promise-based HTTP client for the browser and node.js.
+   - **Installation**: `npm install axios`
+
+5. **Node Package Manager (npm)**
+   - **Version**: Latest
+   - **Description**: A package manager for JavaScript, included with Node.js installation.
+   - **Installation**: Comes with Node.js
+
+6. **Yarn**
+   - **Version**: Latest
+   - **Description**: Fast, reliable, and secure dependency management.
+   - **Installation**: `npm install -g yarn`
+
+
+### Backend Setup Instructions
+
+1. **Install Python Packages**
+
+   ```sh
+   pip install -r requirements.txt
+
+
+```cd backend
+python manage.py runserver
+cd frontend
+npm install
+npm start
+```
+
+
+
+
 ## Setup and Installation
 
 ### Prerequisites
