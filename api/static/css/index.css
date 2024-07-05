@@ -1,0 +1,136 @@
+/* index.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#backgroundVideo {
+    position: fixed;
+    z-index: -1; /* Ensure the video is behind the content */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the video covers the entire viewport */
+}
+
+.content {
+    position: relative;
+    z-index: 1; /* Bring content in front of the video */
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 6em; /* Increase the font size for a bigger heading */
+    font-family: 'Tiny5', sans-serif; /* Apply the Tiny5 font to the heading */
+    color: orange; /* Set the text color to orange */
+    text-shadow: 
+        1px 1px 0 yellow,
+        2px 2px 0 yellow,
+        3px 3px 0 yellow,
+        4px 4px 0 yellow,
+        5px 5px 0 yellow,
+        6px 6px 0 yellow,
+        7px 7px 0 yellow,
+        8px 8px 0 yellow,
+        9px 9px 0 yellow,
+        10px 10px 0 yellow;
+    margin: 20px 0;
+    padding: 20px;
+    border: 5px solid orange; /* Add a border around the heading */
+    box-shadow: 
+        1px 1px 0 yellow,
+        2px 2px 0 yellow,
+        3px 3px 0 yellow,
+        4px 4px 0 yellow,
+        5px 5px 0 yellow,
+        6px 6px 0 yellow,
+        7px 7px 0 yellow,
+        8px 8px 0 yellow,
+        9px 9px 0 yellow,
+        10px 10px 0 yellow;
+    text-align: center; /* Center-align the text inside the box */
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align form items to the right */
+}
+
+#fileInput {
+    display: none; /* Hide the file input */
+}
+
+.upload-btn {
+    width: 50px; /* Set button width */
+    height: 50px; /* Set button height */
+    border-radius: 50%; /* Make the button circular */
+    background-color: orange; /* Set button background color */
+    color: white; /* Set button text color */
+    font-size: 20px; /* Set button font size */
+    text-align: center; /* Center-align text inside button */
+    line-height: 50px; /* Center-align text vertically */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-right: 10px; /* Add margin to separate button from file name */
+}
+
+/* Style for hover effect */
+.upload-btn:hover {
+    background-color: #FFA500; /* Darker orange color on hover */
+}
+
+#fileName {
+    color: orange; /* Set text color to orange */
+    margin-right: 10px; /* Add margin to separate file name from button */
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: rgba(0, 0, 50, 0.6); /* Set background color to blackish blue with higher opacity */
+    color: orange; /* Set text color to orange */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #FFA500; /* Change button background color to orange */
+    color: white;
+    font-size: 20px; /* Increase button font size */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFD700; /* Darker orange color on hover */
+}
+#result {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 50, 0.6); /* Set background color to blackish blue with higher opacity */
+    border: 2px solid orange; /* Change border color */
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 200px; /* Set a fixed height for testing */
+    overflow-y: auto; /* Enable vertical scrollbar when content exceeds the height */
+    color: orange; /* Set text color to orange */
+}
