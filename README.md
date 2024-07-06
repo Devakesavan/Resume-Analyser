@@ -66,7 +66,7 @@ Review the generated text, extracted name, experience, and education details pre
 
 ## License
 
-This project is licensed under the MIT License.See the [LICENSE](https://github.com/Abishekmrgstar/Resume-analyzer/blame/main/LICENSE) file for details.
+This project is licensed under the MIT License.See the [LICENSE](https://github.com/Devakesavan/Resume-Analyser/blob/main/LICENSE) file for details.
 
 ## Support
 
